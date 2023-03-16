@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(14, 137, 253);
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido{
+    padding-left: 35px;
+    display: flex;
+    width: 40%;
+    height: 90%;
+    flex-direction: column;
+    background-color: white;
+    border: solid;
+    justify-content: center;
+    justify-items: center;
+}
+.persona1{
+    display: flex;  
+    width: 100%;
+    height: 21%;
+    
+}
+.parrafo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 130%;
+}
+.persona2{
+    display: flex;  
+    width: 100%;
+    height: 21%;
+}
+.parrafo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 130%;
+}
+.persona3{
+    display: flex;  
+    width: 100%;
+    height: 25%;
+}
+.parrafo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 130%;
+}
+.persona4{
+    display: flex;  
+    width: 100%;
+    height: 25%;
+}
+.parrafo4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 130%;
+}
+img{
+    border-radius: 50%;
+    width: 20%;
+    height: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+hr{
+    width: 90%;
+    height: 5px;
+    background-color: black;
+}
